@@ -16,9 +16,9 @@ export const addTodo = (text) => ({
 export const toggleTodo = (id) => ({
     type: TOGGLE_TODO,
     id: id
-})
+});
 
 export const removeTodo = (id) => ({
     type: REMOVE_TODO,
     id: id
-})
+});
